@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 const Hero = () => {
   return (
     <div>
-      <Navbar />
+    Hello World
     </div>
   )
 }

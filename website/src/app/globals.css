@@ -1,14 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
-@layer base {
-    body {
-        @apply font- bg-
-    }
-}
-
 :root {
 
     --radius: 0.625rem;
@@ -221,4 +213,11 @@
   body {
     @apply bg-background text-foreground;
     }
+}
+
+body{
+    color: white;
+    font-family: jetbrainsMono;
+    background: #031634;
+    
 }
