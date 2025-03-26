@@ -1,12 +1,14 @@
 'use client'
-import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-   <main>
-    <div>
-      <Hero />
+ <section>
+  <div className="container mx-auto h-full">
+    <div className="">
+      <div>text</div>
+      <div>photo</div>
     </div>
-   </main>
+  </div>
+ </section>
   );
 }
