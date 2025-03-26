@@ -220,7 +220,3 @@ body{
     font-family: jetbrainsMono;
     background: #031634;   
 }
-
-@theme {
-    --container-8xl: 96rem;
-  }
