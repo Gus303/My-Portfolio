@@ -218,6 +218,9 @@
 body{
     color: white;
     font-family: jetbrainsMono;
-    background: #031634;
-    
+    background: #031634;   
 }
+
+@theme {
+    --container-8xl: 96rem;
+  }
