@@ -10,10 +10,41 @@ const Photo = () => {
       initial={{opacity: 0}}
       animate={{opacity:1, transition: {delay:1.5, duration:0.4, ease:'easeIn'}}}
       >
-        <div className='w-[298px] h-[298px] md:w-[598px] xl:h-[598px]  '>
+        <motion.div 
+        initial={{opacity: 0}}
+        animate={{opacity:1, transition: {delay:1.7, duration:0.4, ease:'easeInOut'}}}
+        >
+        <div className='w-[298px] h-[298px] md:w-[598px] xl:h-[598px] absolute '>
             <Image src="/assets/photo.png" priority quality={100} fill alt='me as a drawn' className='object-contain rounded-b-full' />
         </div>
-      </motion.div>
+
+        </motion.div>
+        <motion.svg className="w-[400px] md:w-[606px] h-[400px] md:h-[606px] " 
+        fill="transparent"
+        viewBox="0 0 506 506"
+        xmlns="http://www.w3.org/2000/svg"
+        >
+          <motion.circle 
+          cx="253" 
+          cy="253" 
+          r="250" 
+          stroke="white" 
+          strokeWidth="4" 
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          initial={{strokeDasharray: "24 10 0 0"}}
+          animate={{
+            strokeDasharray:["15 120 25 25", "16 25 92 72", "4 250 22 22" ],
+            rotate: [120 ,360]
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            repeatType: "reverse"
+          }}
+          />
+        </motion.svg>
+       </motion.div>
     </div>
   )
 }
