@@ -19,7 +19,7 @@ export default function Home() {
         <h2 className="text-[18px] xl:text-[21px] leading-[1.1] font-semibold">How to Contact Me:</h2>
 
         <div className="mb-8 md:mb-0 mt-6 flex items-center justify-center md:items-start md:justify-start">
-        <Social containerStyles='flex gap-6' iconsStyles='w-12 h-12 text-3xl border-2 border-accent rounded-full flex justify-center items-center text-accent hover:bg-white hover:text-black hover:transition-all duration-500' />
+        <Social containerStyles='flex gap-6' iconsStyles='w-12 h-12 text-2xl border-2 border-accent rounded-full flex justify-center items-center text-accent hover:bg-white hover:text-black hover:transition-all duration-500' />
         </div>
 
         </div>

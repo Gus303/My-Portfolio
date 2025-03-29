@@ -14,12 +14,12 @@ const Photo = () => {
         initial={{opacity: 0}}
         animate={{opacity:1, transition: {delay:1.7, duration:0.4, ease:'easeInOut'}}}
         >
-        <div className='w-[298px] h-[298px] md:w-[598px] xl:h-[598px] absolute '>
-            <Image src="/assets/photo.png" priority quality={100} fill alt='me as a drawn' className='object-contain rounded-b-full' />
+        <div className='container w-[298px] h-[298px] md:w-[498px] md:h-[498px] '>
+            <Image src="/assets/photo.png" priority quality={100} fill alt='me as a drawn' className='object-contain rounded-full' />
         </div>
 
         </motion.div>
-        <motion.svg className="w-[400px] md:w-[606px] h-[400px] md:h-[606px] " 
+        {/* <motion.svg className="container w-[300px] md:w-[510px] h-[300px] md:h-[510px] " 
         fill="transparent"
         viewBox="0 0 506 506"
         xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ const Photo = () => {
             repeatType: "reverse"
           }}
           />
-        </motion.svg>
+        </motion.svg> */}
        </motion.div>
     </div>
   )
