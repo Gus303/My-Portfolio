@@ -33,11 +33,11 @@ export default function Home() {
       </div>
       </div>
       <div className="order-1 md:order-none mb-8 md:mb-15">
-        <Photo />
+      <Photo />
       </div>
     </div>
-    <Stats />
   </div>
+  <Stats />
  </section>
   );
 }
