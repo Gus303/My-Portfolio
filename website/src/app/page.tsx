@@ -7,11 +7,11 @@ import Stats from "@/components/Stats";
 export default function Home() {
   return (
  <section className="h-full ml-[15px] mr-[15px]">
-  <div className="container mx-auto h-full">
+  <div className="container mx-auto h-full mb-0 md:mb-25 xl:mb-0">
     <div className="flex flex-col md:flex-row items-center justify-between xl:pt-8 xl:pb-24">
       <div className="text-center md:text-left order-2 md:order-none">
         <span className="xl:text-[18px] font-semibold">Web Developer</span>
-        <h1 className="text-[58px] xl:text-[68px] leading-[1.1] font-semibold mb-15">Hello I'm,
+        <h1 className="text-[58px] xl:text-[68px] leading-[1.1] font-semibold mb-10 md:mb-30">Hello I'm,
         <br />  
         <span className="text-sky-400">Gustavo Rocha</span>
         </h1>
