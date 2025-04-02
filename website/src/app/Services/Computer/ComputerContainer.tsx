@@ -5,7 +5,7 @@ import { OrbitControls, PerspectiveCamera, Stage, useGLTF } from "@react-three/d
 import { Suspense } from "react";
 import { motion } from "framer-motion";
 
-function Model(props) {
+function Model() {
   const { scene } = useGLTF("/models/computer.glb"); 
   return <primitive object={scene} position={[0.121, 0.007, 0]}  />;
 }
@@ -14,7 +14,7 @@ export default function ComputerContainer() {
   return (
   <motion.div
   initial={{opacity: 0}}
-        animate={{opacity:1, transition: {delay:1.4, duration:0.4, ease:'easeInOut'}}}
+        animate={{opacity:1, transition: {delay:1.6, duration:0.4, ease:'easeInOut'}}}
   >
       <Canvas>
       <Suspense fallback={null}>
