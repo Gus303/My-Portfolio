@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi"
-import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 
@@ -33,7 +32,7 @@ export default function Home() {
       </div>
       </div>
       <div className="order-1 md:order-none mb-8 md:mb-15">
-      <Photo />
+     
       </div>
     </div>
   </div>

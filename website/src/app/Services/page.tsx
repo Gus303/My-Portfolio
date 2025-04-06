@@ -1,4 +1,3 @@
-import ComputerContainer from "./Computer/ComputerContainer"
 
 const Services = () => {
   return (
@@ -8,7 +7,6 @@ const Services = () => {
         </div>
 
         <div className="w-[50%] flex flex-col justify-center">
-        <ComputerContainer />
         </div>
     </section>
   )
